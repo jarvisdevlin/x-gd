@@ -2,7 +2,7 @@
 **This is a brand new private server core for Geometry Dash and is a huge work in progress.**  
 This pretty decent project aims to be better then all the other alternatives.
 ## Supported Versions
-- 1.0
+- Only supports 1.0 at the moment.
 ## Features
 - SQLite3 (Lighter then MySQL!)
 - New Dashboard (Easy to use!)
@@ -15,23 +15,23 @@ This pretty decent project aims to be better then all the other alternatives.
 - SQLite3 for PHP
 - Common Sense
 ### Setup
-1. Get gd-x
+- Get gd-x
 ```bash
 git clone https://github.com/jarvisdevlin/gd-x.git
 cd gd-x
 ```
 
-2. Setup Database
+- Setup Database
 ```bash
 sqlite3 database.db
 sqlite3 database.db < database.sql
 ```
 
-3. Setup Webserver
-- WARNING: You should also use Apache if you plan to use .htaccess or anything else.
-- Run Apache from XAMPP or whatever you use and access http://localhost:[YOUR PORT] to see if it works.
+- Setup Webserver
+**WARNING: You should also use Apache if you plan to use .htaccess or anything else.**
+Run Apache from XAMPP or whatever you use and access `http://localhost:[YOUR PORT]` to see if it works.
 
-4. Patch Geometry Dash
+- Patch Geometry Dash
  - [Same instructions as usual.](https://github.com/Cvolton/GMDprivateServer/wiki/Creating-Windows,-Android-and-IOS-Apps#ios-21-and-below)
 
 ## Issues
